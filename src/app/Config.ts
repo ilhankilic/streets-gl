@@ -48,20 +48,20 @@ const Config = {
 	SlippyMapFetchBatchSize: 4,
 	SettingsSchema: {
 		fov: {
-			label: 'Vertical field of view',
+			label: 'Dikey görüş alanı',
 			selectRange: [5, 120, 1],
 			selectRangeDefault: 40,
 			category: 'general'
 		},
 		labels: {
-			label: 'Text labels',
+			label: 'Metin etiketleri',
 			status: ['off', 'on'],
 			statusLabels: ['Disabled', 'Enabled'],
 			statusDefault: 'on',
 			category: 'general'
 		},
 		terrainHeight: {
-			label: 'Use terrain elevation data',
+			label: 'Arazi yükseklik verilerini kullan',
 			status: ['off', 'on'],
 			statusLabels: ['Disabled', 'Enabled'],
 			statusDefault: 'on',
@@ -75,7 +75,7 @@ const Config = {
 			category: 'general'
 		},*/
 		shadows: {
-			label: 'Shadows',
+			label: 'Gölgeler',
 			status: ['off', 'low', 'medium', 'high'],
 			statusLabels: ['Disabled', 'Low', 'Medium', 'High'],
 			statusDefault: 'medium',

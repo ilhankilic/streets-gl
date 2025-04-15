@@ -139,7 +139,7 @@ const SavedPlacesModalPanel: React.FC<{
 		updateLocalStorage(newPlaces);
 	}
 
-	return <ModalPanel title={'Saved places'} onClose={onClose}>
+	return <ModalPanel title={'Kaydedilen yerler'} onClose={onClose}>
 		<ModalCategoryContainer>
 			<ModalCategory>
 				{
@@ -167,7 +167,7 @@ const SavedPlacesModalPanel: React.FC<{
 					)
 				}
 				<ModalButtonRow
-					labels={['Save current position']}
+					labels={['Mevcut konumu kaydet']}
 					icons={[
 						<AiOutlinePlus size={16}/>,
 					]}
